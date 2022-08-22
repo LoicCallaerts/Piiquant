@@ -3,8 +3,8 @@ const app = express();
 
 const mongoose = require('mongoose');
 
-const saucesPath = require('./path/sauces_path');
-const usersPath = require('./path/users_path');
+const saucesPath = require('./path/saucesPath');
+const usersPath = require('./path/usersPath');
 const path = require('path');
 
 mongoose.connect('mongodb+srv://LoicC:Magedeguerre2256@cluster0.cbdlxty.mongodb.net/?retryWrites=true&w=majority',
